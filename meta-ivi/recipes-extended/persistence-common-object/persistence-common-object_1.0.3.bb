@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=815ca599c9df247a0c7f619bab123dad"
 
 SRCREV = "395b0f504e05ee6c59c1b9d9267c793e072a19ba"
 SRC_URI = " \
-    git://git.projects.genivi.org/persistence/persistence-common-object.git;protocol=http \
+    git://github.com/GENIVI/${BPN}.git;protocol=https \
     "
 S = "${WORKDIR}/git"
 
